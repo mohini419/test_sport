@@ -1,0 +1,48 @@
+
+body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.container{
+	width: 580px;
+	height: 700px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.main{
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.link{
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 20px 0;
+}
+
+
+input[type="text"],textarea{
+	width: 80%;
+	padding:5px;
+	border:2px solid #36ff;
+}
+
+.btn_read{
+	width: 170px;
+	height: 40px;
+	font-size: 20px;
+	background-color: green;
+}
+.btn_read a{
+	text-decoration: none;
+	color: black;
+}
+
+@media screen and(max-width:786px){
+     /**/
+ }
